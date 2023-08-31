@@ -1,0 +1,22 @@
+.userComment{
+display: flex;
+gap: 10px;
+}
+.userComment img{
+    width: 32px;
+    height: auto;
+}
+.userComment input{
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.userComment input:focus{
+    outline: 1px solid #2e2e2e ;
+}
+
+/* .usersComnments{
+
+} */

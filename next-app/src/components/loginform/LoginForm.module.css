@@ -1,0 +1,69 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: #2c2c2c;
+    border-radius: 16px;
+    height: 300px;
+    width: 400px;
+}
+
+.login input {
+    color: #2c2c2c;
+    border: solid 2px #dedede;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.submit{
+    background-color: #166534;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.login input:focus{
+    outline: 1px solid #2e2e2e ;
+}
+
+.signIn{
+    background-image: url('https://www.transparentpng.com/thumb/google-logo/google-logo-png-icon-free-download-SUF63j.png');
+    width: 90px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.signIn:hover{
+    cursor: pointer;
+}
+
+.containerLogin{
+    background-color: white;
+    color: #2e2e2e;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+    gap: 20%;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.userLogIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

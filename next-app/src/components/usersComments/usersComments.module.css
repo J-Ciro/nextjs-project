@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    margin: 10px 0px;
+    gap: 10px;
+    align-items: flex-start;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.userInfo img{
+    width: 32px;
+}
+
+.usersComment{
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.usersComment p{
+width: 100%;
+}
+
+.userCommentDate{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.trashBtn svg:hover{
+    fill: rgba(255, 0, 0, 0.344);
+}
+
+.usersName{
+    font-size: 16px;
+    font-weight: 500;
+}

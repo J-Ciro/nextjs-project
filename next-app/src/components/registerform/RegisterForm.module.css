@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.register{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: #2c2c2c;
+    border-radius: 16px;
+    height: 500px;
+    width: 400px;
+    text-align: left;
+}
+.register label{
+    display: flex;
+}
+
+.register input {
+    color: #2c2c2c;
+    border: solid 2px #dedede;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.submit{
+    background-color: #166534;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.register input:focus{
+    outline: 1px solid #2e2e2e ;
+}

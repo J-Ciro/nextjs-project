@@ -1,0 +1,40 @@
+.container{
+    
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color: white;
+    height: 34px;
+    width: 80vw;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-weight: 400;
+    color: white;
+   
+}
+
+
+.navbar li{
+    background-color: #2e2e2e;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.signOut{
+    background-color: #2e2e2e;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.signOut:hover{
+    cursor: pointer;
+}
+
